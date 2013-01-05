@@ -1,0 +1,29 @@
+Triggers cannot be exported from the Oracle database and have to be created manually. Use the following syntax to create triggers:
+
+*** Trigger remove_rides
+SQL> create trigger remove_rides
+  2  before delete on rides
+  3  referencing old as oldrow
+  4  for each row
+  5  begin
+  6  delete (select * from log_visitor where action_name=:oldrow.name);
+  7  delete (select * from log_staff_mechanic where ride_name=:oldrow.name);
+  8  end remove_rides;
+  9  .
+SQL> run
+  
+Trigger created.
+
+*** Trigger Fire_Staff
+SQL> create trigger fire_staff
+  2  before delete on staff
+  3  referencing old as oldrow
+  4  for each row
+  5  begin
+  6  delete (select * from log_staff_assistant where staff_login=:oldrow.username);
+  7  delete (select * from log_staff_mechanic where staff_login=:oldrow.username);
+  8  end fire_staff;
+  9  .
+SQL> run
+ 
+Trigger created.

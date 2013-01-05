@@ -1,0 +1,501 @@
+[Root]
+Most Recent Package=Setup Package (EntResort) (All Files)
+
+
+[Package|Standard Setup Package (EntResort)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\Portable Assembly
+
+[Package|Standard Setup Package (EntResort)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package (EntResort)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package (EntResort)|Files Found]
+
+[Package|Standard Setup Package (EntResort)|Files Released]
+
+[Package|Standard Setup Package (EntResort)|Missing Dependency Information]
+
+[Package|Standard Setup Package (EntResort)|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Standard Setup Package (EntResort)|Files Added]
+c:\documents and settings\administrator\desktop\entertainmentresort.exe.manifest=
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=
+
+[Package|Standard Setup Package (EntResort)|Files Removed]
+
+[Package|Standard Setup Package (EntResort)|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\msdatlst.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Administrator\Desktop\EntertainmentResort.exe.manifest=Yes
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=Yes
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=Yes
+
+[Package|Standard Setup Package (EntResort)|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package (EntResort)|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package (EntResort)|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatlst.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Administrator\Desktop\EntertainmentResort.exe.manifest=$(AppPath)
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=$(AppPath)
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=$(AppPath)
+
+[Package|Standard Setup Package (EntResort)|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\Administrator\Desktop\EntertainmentResort.exe.manifest=No
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=No
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=No
+
+[Package|Standard Setup Package (EntResort)|Distribution]
+Type=single
+Size=
+Title=Entertainment Resort
+
+[Package|Standard Setup Package (EntResort)|Package]
+PackageFolder=c:\Portable Assembly
+ProjectFolder=Z:\ISL Project (Entertainment Resort)\Portability\Project
+ServerSideCab=
+File1=c:\Portable Assembly\setup.exe
+File2=c:\Portable Assembly\Setup.Lst
+File3=c:\Portable Assembly\EntertainmentResort.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Standard Setup Package (EntResort)|IconGroups]
+Group0=Entertainment Resort
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Standard Setup Package (EntResort)|Entertainment Resort]
+Icon1=EntertainmentResort.exe
+Title1=Entertainment Resort
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=documentation.txt
+Title2=Documentation
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=db.mdb
+Title3=Access Database
+StartIn3=$(AppPath)
+Key3=Icon5
+
+
+[Package|Setup Package (EntResort)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\package
+
+[Package|Setup Package (EntResort)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Package (EntResort)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Package (EntResort)|Files Found]
+EntertainmentResort.exe.manifest=C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest
+
+[Package|Setup Package (EntResort)|Files Released]
+
+[Package|Setup Package (EntResort)|Missing Dependency Information]
+
+[Package|Setup Package (EntResort)|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Setup Package (EntResort)|Files Added]
+entertainmentresort.exe.manifest=
+z:\isl project (entertainment resort)\portability\project\db.mdb=
+z:\isl project (entertainment resort)\portability\project\documentation.txt=
+
+[Package|Setup Package (EntResort)|Files Removed]
+c:\windows\system32\mscomctl.ocx=
+c:\windows\system32\msjtes40.dll=
+c:\windows\system32\msrepl40.dll=
+c:\windows\system32\msrd3x40.dll=
+c:\windows\system32\msrd2x40.dll=
+c:\windows\system32\mswdat10.dll=
+c:\windows\system32\mswstr10.dll=
+c:\windows\system32\msjint40.dll=
+c:\windows\system32\msjter40.dll=
+c:\windows\system32\msjet40.dll=
+c:\program files\common files\microsoft shared\dao\dao360.dll=
+
+[Package|Setup Package (EntResort)|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=No
+C:\WINDOWS\system32\msjet40.dll=No
+C:\WINDOWS\system32\msjter40.dll=No
+C:\WINDOWS\system32\msjint40.dll=No
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=No
+C:\WINDOWS\system32\mswdat10.dll=No
+C:\WINDOWS\system32\msrd2x40.dll=No
+C:\WINDOWS\system32\msrd3x40.dll=No
+C:\WINDOWS\system32\msrepl40.dll=No
+C:\WINDOWS\system32\msjtes40.dll=No
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=No
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\msdatlst.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=Yes
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=Yes
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest=Yes
+
+[Package|Setup Package (EntResort)|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Package (EntResort)|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Package (EntResort)|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatlst.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Administrator\Desktop\EntertainmentResort.exe.manifest=$(AppPath)
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=$(AppPath)
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest=$(AppPath)
+
+[Package|Setup Package (EntResort)|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\Administrator\Desktop\EntertainmentResort.exe.manifest=No
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=No
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=No
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest=No
+
+[Package|Setup Package (EntResort)|Distribution]
+Type=single
+Size=
+Title=Entertainment Resort
+
+[Package|Setup Package (EntResort)|IconGroups]
+Group0=Entertainment Resort
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Setup Package (EntResort)|Entertainment Resort]
+Icon1=EntertainmentResort.exe
+Title1=Entertainment Resort
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=documentation.txt
+Title2=Documentation
+StartIn2=$(AppPath)
+Key2=Icon4
+Icon3=db.mdb
+Title3=Access Database
+StartIn3=$(AppPath)
+Key3=Icon5
+
+[Package|Setup Package (EntResort)|Package]
+PackageFolder=c:\package
+ProjectFolder=Z:\ISL Project (Entertainment Resort)\Portability\Project
+ServerSideCab=
+File1=c:\package\setup.exe
+File2=c:\package\Setup.Lst
+File3=c:\package\EntertainmentResort.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|Setup Package (EntResort) (All Files)|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\package
+
+[Package|Setup Package (EntResort) (All Files)|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup Package (EntResort) (All Files)|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup Package (EntResort) (All Files)|Files Found]
+EntertainmentResort.exe.manifest=C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest
+db.mdb=Z:\Portability\Project\db.mdb
+
+[Package|Setup Package (EntResort) (All Files)|Files Released]
+documentation.txt=
+
+[Package|Setup Package (EntResort) (All Files)|Missing Dependency Information]
+
+[Package|Setup Package (EntResort) (All Files)|Out-of-Date Dependency Information]
+C:\WINDOWS\system32\mscomctl.ocx=
+
+[Package|Setup Package (EntResort) (All Files)|Files Added]
+entertainmentresort.exe.manifest=
+db.mdb=
+Z:\Portability\Project\documentation.pdf=
+
+[Package|Setup Package (EntResort) (All Files)|Files Removed]
+
+[Package|Setup Package (EntResort) (All Files)|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=Yes
+C:\WINDOWS\system32\msvbvm60.dll=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\system32\MSBIND.DLL=Yes
+C:\WINDOWS\system32\msstdfmt.dll=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\WINDOWS\system32\MSDBRPTR.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=Yes
+C:\WINDOWS\system32\msjet40.dll=Yes
+C:\WINDOWS\system32\msjter40.dll=Yes
+C:\WINDOWS\system32\msjint40.dll=Yes
+C:\WINDOWS\system32\vbajet32.dll=Yes
+C:\WINDOWS\system32\expsrv.dll=Yes
+C:\WINDOWS\system32\mswstr10.dll=Yes
+C:\WINDOWS\system32\mswdat10.dll=Yes
+C:\WINDOWS\system32\msrd2x40.dll=Yes
+C:\WINDOWS\system32\msrd3x40.dll=Yes
+C:\WINDOWS\system32\msrepl40.dll=Yes
+C:\WINDOWS\system32\msjtes40.dll=Yes
+C:\WINDOWS\system32\VB5DB.DLL=Yes
+C:\WINDOWS\system32\comdlg32.ocx=Yes
+C:\WINDOWS\system32\mscomctl.ocx=Yes
+C:\WINDOWS\system32\MSADODC.OCX=Yes
+C:\WINDOWS\system32\tabctl32.ocx=Yes
+C:\WINDOWS\system32\msdatgrd.ocx=Yes
+C:\WINDOWS\system32\mscomct2.ocx=Yes
+C:\WINDOWS\system32\msdatlst.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest=Yes
+Z:\Portability\Project\db.mdb=Yes
+Z:\Portability\Project\documentation.pdf=Yes
+
+[Package|Setup Package (EntResort) (All Files)|Configure Registry Files]
+Applicable=No
+
+[Package|Setup Package (EntResort) (All Files)|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup Package (EntResort) (All Files)|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=$(AppPath)
+C:\WINDOWS\system32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\system32\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\system32\msstdfmt.dll=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINDOWS\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\dao360.dll=$(MSDAOPath)
+C:\WINDOWS\system32\msjet40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjter40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjint40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\vbajet32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\expsrv.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswstr10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\mswdat10.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd2x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrd3x40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msrepl40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\msjtes40.dll=$(WinSysPathSysFile)
+C:\WINDOWS\system32\VB5DB.DLL=$(WinSysPath)
+C:\WINDOWS\system32\comdlg32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\system32\MSADODC.OCX=$(WinSysPath)
+C:\WINDOWS\system32\tabctl32.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatgrd.ocx=$(WinSysPath)
+C:\WINDOWS\system32\mscomct2.ocx=$(WinSysPath)
+C:\WINDOWS\system32\msdatlst.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\Documents and Settings\Administrator\Desktop\EntertainmentResort.exe.manifest=$(AppPath)
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=$(AppPath)
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=$(AppPath)
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest=$(AppPath)
+Z:\Portability\Project\db.mdb=$(AppPath)
+Z:\Portability\Project\documentation.txt=$(AppPath)
+Z:\Portability\Project\documentation.pdf=$(AppPath)
+
+[Package|Setup Package (EntResort) (All Files)|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\Documents and Settings\Administrator\Desktop\EntertainmentResort.exe.manifest=No
+Z:\ISL Project (Entertainment Resort)\Portability\Project\db.mdb=No
+Z:\ISL Project (Entertainment Resort)\Portability\Project\documentation.txt=No
+C:\Documents and Settings\Administrator\Desktop\Portable\EntertainmentResort.exe.manifest=No
+Z:\Portability\Project\db.mdb=No
+Z:\Portability\Project\documentation.txt=No
+Z:\Portability\Project\documentation.pdf=No
+
+[Package|Setup Package (EntResort) (All Files)|Distribution]
+Type=single
+Size=
+Title=Entertainment Resort
+
+[Package|Setup Package (EntResort) (All Files)|Package]
+PackageFolder=c:\package
+ProjectFolder=Z:\Portability\Project
+ServerSideCab=
+File1=c:\package\setup.exe
+File2=c:\package\Setup.Lst
+File3=c:\package\EntertainmentResort.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Setup Package (EntResort) (All Files)|IconGroups]
+Group0=Entertainment Resort
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|Setup Package (EntResort) (All Files)|Entertainment Resort]
+Icon1=EntertainmentResort.exe
+Title1=Entertainment Resort
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=db.mdb
+Title2=Access Database
+StartIn2=$(AppPath)
+Key2=Icon5
+Icon3=documentation.pdf
+Title3=Documentation
+StartIn3=$(AppPath)
+Key3=Icon4
