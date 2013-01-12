@@ -63,6 +63,8 @@ Apart from the few weeks of sleepless nights, this project is the outcome of the
 ###Invaluable resources in disguise
 This `README.md` file was made with great help from [GitHub Markup Preview](http://dfilimonov.com/github-markup-preview/), whose repo you can find [here](https://github.com/petethepig/github-markup-preview). I sincerely hope it will encourage scores of developers to leverage the [Github flavored markup](https://github.com/github/markup/) for their own documentations.
 
+On second thoughts, [prose.io](http://prose.io) takes a step forward and integrates with GitHub too!
+
 ##A conservative timeline
 This project was made sometime back in 2011. I do not know if it will stand the test of time; and I would be the gladdest person it it doesn't: for this entails that the prescribed syllabus to students of age has been finally revised to suit the day (in which case this would probably count as an *'History of Information Technology'* article for whatever class it is called these days!
 It still holds ground as one of the first collaborative projects that I've done, but I quickly realize that GitHub might be skeptical of that!
